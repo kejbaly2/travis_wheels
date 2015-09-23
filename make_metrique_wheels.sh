@@ -8,5 +8,6 @@ pip wheel --wheel-dir=./wheelhouse --no-deps simplejson || EXIT_STATUS=$?
 pip wheel --wheel-dir=./wheelhouse --no-deps sqlalchemy || EXIT_STATUS=$?
 pip wheel --wheel-dir=./wheelhouse --no-deps virtualenv || EXIT_STATUS=$?
 pip wheel --wheel-dir=./wheelhouse --no-deps python_dateutil || EXIT_STATUS=$?
+pip wheel --wheel-dir=./wheelhouse --no-deps joblib || EXIT_STATUS=$?
 
 exit $EXIT_STATUS
